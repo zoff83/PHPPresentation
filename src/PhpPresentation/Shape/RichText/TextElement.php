@@ -116,7 +116,7 @@ class TextElement implements TextElementInterface
      *
      * @param  \PhpOffice\PhpPresentation\Shape\Hyperlink $pHyperlink
      * @throws \Exception
-     * @return \PhpOffice\PhpPresentation\AbstractShape
+     * @return $this
      */
     public function setHyperlink(Hyperlink $pHyperlink = null)
     {
